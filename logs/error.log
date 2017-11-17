@@ -1,0 +1,7 @@
+2017-11-15 14:11:58.631 [Thread-18] ERROR com.ray.dingtalk.isv.auth.thread.TokenRunnable - {}
+java.lang.Exception: error code:40014, error message:不合法的access_token
+	at com.ray.dingtalk.isv.util.HttpHelper.doPost(HttpHelper.java:159) ~[classes/:?]
+	at com.ray.dingtalk.isv.service.IsvService.getCropAccessToken(IsvService.java:186) ~[classes/:?]
+	at com.ray.dingtalk.isv.auth.AuthHelper.getAccessToken(AuthHelper.java:78) ~[classes/:?]
+	at com.ray.dingtalk.isv.auth.thread.TokenRunnable.run(TokenRunnable.java:23) [classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]

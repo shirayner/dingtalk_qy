@@ -1,0 +1,16 @@
+2017-11-14 14:21:03.825 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510640462591","AuthCode":"378d31c3c20b3df7b299309c3e00a016","EventType":"tmp_auth_code","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-14 14:21:03.836 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - 378d31c3c20b3df7b299309c3e00a016
+2017-11-14 14:21:04.839 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"errmsg":"ok","auth_corp_info":{"corpid":"ding86a8a5b5a7b5872135c2f4657eb6378f","corp_name":"ISV测试企业"},"permanent_code":"xQ6i0ekBKbWxPBaovvkthwH4q0fxjnRWGndCc0gYam7pQVtbhD4pOEbFhq1zpWqx"}
+2017-11-14 14:21:04.840 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.service.IsvService - {"errcode":0,"auth_corp_info":{"corpid":"ding86a8a5b5a7b5872135c2f4657eb6378f","corp_name":"ISV测试企业"},"errmsg":"ok","permanent_code":"xQ6i0ekBKbWxPBaovvkthwH4q0fxjnRWGndCc0gYam7pQVtbhD4pOEbFhq1zpWqx"}
+2017-11-14 14:21:05.810 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"errmsg":"ok"}
+2017-11-14 14:21:05.811 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.service.IsvService - {"errcode":0,"errmsg":"ok"}
+2017-11-14 14:21:05.926 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510640462591","AuthCode":"378d31c3c20b3df7b299309c3e00a016","EventType":"tmp_auth_code","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-14 14:21:05.927 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - 378d31c3c20b3df7b299309c3e00a016
+2017-11-14 14:21:06.806 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":40078,"errmsg":"不存在的临时授权码"}
+2017-11-14 14:21:06.806 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.util.HttpHelper - request url=https://oapi.dingtalk.com/service/get_permanent_code?suite_access_token=236f338d749f39b9ac2d3e935d893f5e,return value=
+2017-11-14 14:21:06.806 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.util.HttpHelper - {"errcode":40078,"errmsg":"不存在的临时授权码"}
+2017-11-14 14:21:06.920 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510640462591","AuthCode":"378d31c3c20b3df7b299309c3e00a016","EventType":"tmp_auth_code","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-14 14:21:06.921 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - 378d31c3c20b3df7b299309c3e00a016
+2017-11-14 14:21:07.868 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":40078,"errmsg":"不存在的临时授权码"}
+2017-11-14 14:21:07.869 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.util.HttpHelper - request url=https://oapi.dingtalk.com/service/get_permanent_code?suite_access_token=236f338d749f39b9ac2d3e935d893f5e,return value=
+2017-11-14 14:21:07.870 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.util.HttpHelper - {"errcode":40078,"errmsg":"不存在的临时授权码"}

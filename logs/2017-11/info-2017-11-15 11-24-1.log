@@ -1,0 +1,3 @@
+2017-11-15 11:24:29.006 [localhost-startStop-1] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - init---------------
+2017-11-15 11:24:29.042 [Thread-18] INFO  com.ray.dingtalk.isv.auth.thread.TokenRunnable - 定时获取accessToken和jsapiTicket------------------------
+2017-11-15 11:24:29.439 [Thread-18] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"5d268164302c3b33bef5557b7e911d29","begin_time":1510710589346}
