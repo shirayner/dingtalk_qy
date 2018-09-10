@@ -1,4 +1,0 @@
-2017-11-14 14:19:30.725 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510640368536","AuthCorpId":"ding86a8a5b5a7b5872135c2f4657eb6378f","EventType":"suite_relieve","SuiteKey":"suitenqeusfld8dqkseqs"}
-2017-11-14 14:19:37.541 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510640376748","SuiteTicket":"2aG2MIbs6Ra6f0vZ7UsrbRbkpMcF4GYvsopRW2BpaY6yjrq7eoBLkpjhDvMK0pxKcC7ypXO34LuJGYtUWN0M79","EventType":"suite_ticket","SuiteKey":"suitenqeusfld8dqkseqs"}
-2017-11-14 14:19:39.022 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"errmsg":"ok","suite_access_token":"236f338d749f39b9ac2d3e935d893f5e","expires_in":7200}
-2017-11-14 14:19:39.023 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.service.IsvService - {"errcode":0,"errmsg":"ok","suite_access_token":"236f338d749f39b9ac2d3e935d893f5e","expires_in":7200}

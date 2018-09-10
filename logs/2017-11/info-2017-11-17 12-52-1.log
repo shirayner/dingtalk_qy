@@ -1,2 +1,0 @@
-2017-11-17 12:52:27.063 [main] INFO  com.ray.dingtalk.qy.util.HttpHelper - GET请求结果：{"errcode":0,"access_token":"459ae72408ad3cbf871f4f37272a4845","errmsg":"ok"}
-2017-11-17 12:52:28.240 [main] INFO  com.ray.dingtalk.qy.util.HttpHelper - POST请求结果：{"errcode":0,"errmsg":"ok","messageId":"cfe2f8386a53303580592a1e379c4853","invalidparty":"","invaliduser":""}

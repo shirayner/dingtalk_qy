@@ -1,2 +1,0 @@
-2017-11-17 12:05:14.047 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.qy.util.HttpHelper - GET请求结果：{"errcode":0,"access_token":"459ae72408ad3cbf871f4f37272a4845","errmsg":"ok"}
-2017-11-17 12:05:15.219 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.qy.util.HttpHelper - GET请求结果：{"errcode":0,"errmsg":"ok","ticket":"Mg80FKD0g7HGLSihjHj1qn1Wm6vpBst7tc4ZS8ojOtQFC1UGsSv12EnNlRAldTbub00K1iv1hLTbIdLrtxcR7E","expires_in":7200}

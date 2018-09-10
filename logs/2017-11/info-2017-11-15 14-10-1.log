@@ -1,8 +1,0 @@
-2017-11-15 14:10:56.133 [localhost-startStop-1] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - init---------------
-2017-11-15 14:10:56.153 [Thread-18] INFO  com.ray.dingtalk.isv.auth.thread.TokenRunnable - 定时获取accessToken和jsapiTicket------------------------
-2017-11-15 14:10:56.395 [Thread-18] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"5d268164302c3b33bef5557b7e911d29","begin_time":1510710589346}
-2017-11-15 14:10:56.398 [Thread-18] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 4a93cf16fc733aabb00b58c8c42def9e
-2017-11-15 14:10:56.398 [Thread-18] INFO  com.ray.dingtalk.isv.auth.AuthHelper - OZepZ23yCaK8xy9hlDjZfNB_pSHIptC2Kl7pconx_i3ap1LeLCypPOfCb0v3l8nF
-2017-11-15 14:10:58.629 [Thread-18] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":40014,"errmsg":"不合法的access_token"}
-2017-11-15 14:10:58.631 [Thread-18] INFO  com.ray.dingtalk.isv.util.HttpHelper - request url=https://oapi.dingtalk.com/service/get_corp_token?suite_access_token=4a93cf16fc733aabb00b58c8c42def9e,return value=
-2017-11-15 14:10:58.631 [Thread-18] INFO  com.ray.dingtalk.isv.util.HttpHelper - {"errcode":40014,"errmsg":"不合法的access_token"}

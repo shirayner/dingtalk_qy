@@ -1,4 +1,0 @@
-2017-11-13 17:31:00.040 [http-apr-8080-exec-7] INFO  com.ray.dingtalk.qy.util.HttpHelper - HttpStatus.SC_OK:200
-2017-11-13 17:31:00.050 [http-apr-8080-exec-7] INFO  com.ray.dingtalk.qy.util.HttpHelper - response.getStatusLine().getStatusCode():200
-2017-11-13 17:31:00.050 [http-apr-8080-exec-7] INFO  com.ray.dingtalk.qy.util.HttpHelper - Content-Type: image/png
-2017-11-13 17:31:00.051 [http-apr-8080-exec-7] INFO  com.ray.dingtalk.qy.util.HttpHelper - true
