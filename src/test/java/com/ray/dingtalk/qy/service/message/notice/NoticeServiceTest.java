@@ -1,12 +1,11 @@
 package com.ray.dingtalk.qy.service.message.notice;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.junit.Test;
-
 import com.ray.dingtalk.qy.auth.AuthHelper;
 import com.ray.dingtalk.qy.config.Env;
+import org.junit.Test;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**@desc  : 
  * 
@@ -31,7 +30,8 @@ public class NoticeServiceTest {
 	@Test
 	public void testSendMarkdownNotice() throws Exception {
 		String accessToken=AuthHelper.getAccessToken(Env.CORP_ID, Env.CORP_SECRET);
-		String userId="manager6777";
+		//String userId="manager6777";
+		String userId="@all";
 		String title="代办事项";
 		String title2="费控审批";
 		String content="你目前有8条新的代办产生，请及时处理啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊";

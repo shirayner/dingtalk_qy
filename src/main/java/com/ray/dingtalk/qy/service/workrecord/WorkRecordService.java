@@ -5,6 +5,7 @@ import com.ray.dingtalk.qy.model.workrecord.WorkRecord;
 import com.ray.dingtalk.qy.model.workrecord.WorkRecord.FormItemVo;
 import com.ray.dingtalk.qy.util.HttpHelper;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -14,7 +15,7 @@ import java.util.List;
  *   1.发送代办，返回record_id。 然后将 record_id 与单据id,user_id进行关联
  *   2.更新代办。审批单据，然后根据单据id,找出record_id,user_id,然后更新代办。
  *
- *
+ * 注：代办内容重复次数过多，会导致代办发布出去。
  *
  */
 public class WorkRecordService {
@@ -63,13 +64,7 @@ public class WorkRecordService {
 				record_id=jsonObject.getString("record_id");
 			}  
 
-		}else {
-			JSONObject jsonResult =new JSONObject();
-			jsonResult.put("errcode", 40004);
-			jsonResult.put("errmsg", "网络异常");
-
-			record_id =jsonResult.toJSONString();
-		}   
+		}
 
 
 		return record_id;
@@ -92,11 +87,15 @@ public class WorkRecordService {
 		workRecord.setTitle(title);
 		workRecord.setUrl(url);
 		workRecord.setLtitle(Ltitle);
-		workRecord.setLcontent(Lcontent);
 
 		List<FormItemVo> formItemList =new ArrayList<FormItemVo>();
 		FormItemVo obj3 = new FormItemVo();
 		obj3.setTitle(Ltitle);
+		//设置链接消息的内容，由于钉钉相同消息每天只能发送一次，故给消息加上时间前缀
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+		String date = simpleDateFormat.format(new Date());// new Date()为获取当前系统时间，也可使用当前时间戳
+		Lcontent =Lcontent +"  "+date;
+		workRecord.setLcontent(Lcontent);
 		obj3.setContent(Lcontent);
 		formItemList.add(obj3);
 		workRecord.setFormItemList(formItemList);

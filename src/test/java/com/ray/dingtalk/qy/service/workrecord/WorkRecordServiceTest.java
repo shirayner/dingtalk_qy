@@ -46,6 +46,7 @@ public class WorkRecordServiceTest {
 	public void testAddWorkRecord2() {
 
 		String userId ="manager6777";
+		//String userId ="054208022725718551";
 		String title = "费控审批";
 		String url = "https://www.cnblogs.com/shirui/";
 		String Ltitle = "";
